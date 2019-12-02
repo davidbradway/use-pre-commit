@@ -1,9 +1,18 @@
+from typing import List
+import os
 from seven_dwwarfs import Grumpy, Happy, Sleepy, Bashful, Sneezy, Dopey, Doc
 x = {  'a':37,'b':42,
 
 'c':927}
 
 x = 123456789.123456789E123456789
+
+very_long_variable_name = object()
+very_long_variable_name.field = 1
+
+this = 1
+
+that = 2
 
 if very_long_variable_name is not None and \
  very_long_variable_name.field > 0 or \
@@ -28,9 +37,9 @@ def very_important_function(template: str,*variables,file: os.PathLike,debug:boo
      ...
 # fmt: off
 custom_formatting = [
-    0,  1,  2,
-    3,  4,  5,
-    6,  7,  8,
+    0, 1, 2,
+    3, 4, 5,
+    6, 7, 8,
 ]
 # fmt: on
 regular_formatting = [
