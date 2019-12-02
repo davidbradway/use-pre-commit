@@ -29,12 +29,12 @@ class Foo  (     object  ):
     return       37*-2
   def g(self, x,y=42):
       return y
-def f  (   a: List[ int ]) :
+def f  (   a: List[ int ], u, y) :
   return      37-a[42-u :  y**3]
 def very_important_function(template: str,*variables,file: os.PathLike,debug:bool=False,):
     """Applies `variables` to the `template` and writes to `file`."""
     with open(file, "w") as f:
-     ...
+        f
 # fmt: off
 custom_formatting = [
     0, 1, 2,
